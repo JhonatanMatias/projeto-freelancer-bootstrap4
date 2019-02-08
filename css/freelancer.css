@@ -1,0 +1,68 @@
+#navPrincipal {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-weight: 700;
+  font-family: 'Montserrat';
+}
+
+#navPrincipal .navbar-brand {
+  color: #fff;
+}
+
+#navPrincipal .navbar-nav {
+  margin-top: 1rem;
+  letter-spacing: 0.0635rem;
+}
+
+#navPrincipal .navbar-nav li.nav-item a.nav-link {
+  color: #fff;
+}
+
+#navPrincipal .navbar-nav li.nav-item a.nav-link:hover {
+  color: #18BC9C;
+}
+
+#navPrincipal .navbar-nav li.nav-item a.nav-link:active, #navPrincipal .navbar-nav li.nav-item a.nav-link:focus {
+  color: #fff;
+}
+
+#navPrincipal .navbar-nav li.nav-item a.nav-link.active {
+  color: #18BC9C;
+}
+
+#navPrincipal .navbar-toggler {
+  font-size: 80%;
+  padding: 0.8rem;
+}
+
+@media (min-width: 992px) {
+  #navPrincipal {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    -webkit-transition: padding-top 0.3s,padding-bottom 0.3s;
+    transition: padding-top 0.3s,padding-bottom 0.3s;
+  }
+  #navPrincipal .navbar-brand {
+    font-size: 2em;
+    -webkit-transition: font-size 0.3s;
+    transition: font-size 0.3s;
+  }
+  #navPrincipal .navbar-nav {
+    margin-top: 0;
+  }
+  #navPrincipal .navbar-nav > li.nav-item > a.nav-link.active {
+    color: #fff;
+    background-color: #18BC9C;
+  }
+  #navPrincipal .navbar-nav > li.nav-item > a.nav-link.active:active, #navPrincipal .navbar-nav > li.nav-item > a.nav-link.active:hover, #navPrincipal .navbar-nav > li.nav-item > a.nav-link.active:focus {
+    color: #fff;
+    background-color: #18BC9C;
+  }
+  #navPrincipal.nav-shrink {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+  #navPrincipal.nav-shrink .navbar-brand {
+    font-size: 1.5em;
+  }
+}
