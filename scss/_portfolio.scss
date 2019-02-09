@@ -1,0 +1,36 @@
+//Estilo da seção Portfólio
+.portfolio {
+
+	margin-bottom: -15px;
+
+	.portfolio-item {
+		
+		position: relative;
+		display: block;
+		max-width: 25rem;
+		margin-bottom: 15px;
+
+		.portfolio-item-caption {
+
+			-webkit-transition: all ease 0.5s;
+			-moz-transition: all ease 0.5s;
+			-o-transition: all ease 0.5s;
+			transition: all ease 0.5s;
+			background-color: fade-out($primary,.1);
+			opacity: 0;
+
+			&:hover {opacity: 1}
+
+			.portfolio-item-caption-content {font-size: 1.5rem}
+		}
+	}
+
+	@media(min-width:576px) {
+
+		margin-bottom: -30px;
+		.portfolio-item {
+
+			margin-bottom: 30px
+		}
+	}
+}
