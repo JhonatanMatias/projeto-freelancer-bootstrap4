@@ -34,3 +34,19 @@
 		}
 	}
 }
+
+//Modal estilo
+.portfolio-modal {
+	.portfolio-modal-dialog {
+		padding: 3rem 1rem;
+		min-height: calc(100vh - 2rem);
+		margin: 1rem calc(1rem - 8px);
+		position: relative;
+		z-index: 2;
+		-webkit-box-shadow: 0 0 3rem 1rem fade-out(black,.5s);
+		-moz-box-shadow: 0 0 3rem 1rem fade-out(black,.5s);
+		-o-box-shadow: 0 0 3rem 1rem fade-out(black,.5s);
+		box-shadow: 0 0 3rem 1rem fade-out(black,.5s);
+
+	}
+}
