@@ -48,5 +48,31 @@
 		-o-box-shadow: 0 0 3rem 1rem fade-out(black,.5s);
 		box-shadow: 0 0 3rem 1rem fade-out(black,.5s);
 
+		.close-button {
+
+			position: absolute;
+			top: 2rem;
+			right: 2rem;
+
+			i {
+
+				line-height: 38px;
+			}
+		}
+
+		h2 {font-size: 2rem}
+
 	}
+
+	@media(min-width:768px){
+
+	.portfolio-modal-dialog {
+
+		min-height: 100vh;
+		padding: 5rem;
+		margin: 3rem calc(3rem - 8px);
+
+		h2 {font-size: 3rem}
+	}
+}
 }
