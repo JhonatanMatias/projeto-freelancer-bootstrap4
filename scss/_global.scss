@@ -1,3 +1,13 @@
+//Tipografia
+body {@include body-font }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 { @include heading-font}
+
 //Linha customizada com icone de estrela
 
 hr.star-light,
@@ -37,6 +47,43 @@ hr.star-light:after {
 	background-color: $primary
 }
 
+//Configuração de espaçamento das seçoes
+
+section {
+
+	padding: 6rem 0;
+
+	h2 {
+
+		font-size: 2.5rem;
+		line-height: 2rem
+	}
+
+	@media(min-width: 992px){
+
+		h2 {
+			font-size: 3rem;
+			line-height: 2.5rem	
+		}
+	}
+}
+
+
+//botão de tamanho custumizado.
+
+.btn-xl {
+
+	padding: 1rem 1.75rem
+}
+
+//botões arrendondados redes sociais
+.btn-social {
+
+	width: 3.5rem;
+	height: 3.5rem;
+	font-size: 1.75rem;
+	line-height: 2rem;
+}
 
 //Botão de rolagem para o topo
 .scroll-to-top {
