@@ -34,6 +34,12 @@ $(document).ready(function() {
 
 	});
 
+	//Efeito de fechamento do menu responsivo quando um link é cliclado.
+	$('.js-scroll-trigger').click(function() {
+
+		$('.navbar-collapse').collapse('hide');
+	})
+
 	//Modal popup$ (function() {
 	$('.portfolio-item').magnificPopup({
 
