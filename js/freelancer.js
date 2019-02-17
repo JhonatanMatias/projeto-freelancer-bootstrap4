@@ -20,6 +20,20 @@ $(document).ready(function() {
 		}
 	})
 
+	//Aparencia do botão de rolagem para o topo
+	$(document).scroll(function(){
+		var scrollDistance = $(this).scrollTop();
+
+		if(scrollDistance > 100){
+
+			$('.scroll-to-top').fadeIn();
+		} else {
+
+			$('.scroll-to-top').fadeOut();
+		}
+
+	});
+
 	//Modal popup$ (function() {
 	$('.portfolio-item').magnificPopup({
 
