@@ -96,6 +96,10 @@ $(document).ready(function() {
 	 		$(this).removeClass('floating-label-form-group-with-focus');
 	 	})
 	 });
+
+	 //Aplicando o jqBootstrapValidation
+	 if($('#formContato input,#formContato textarea').jqBootstrapValidation()); 
+
 });
 
 
