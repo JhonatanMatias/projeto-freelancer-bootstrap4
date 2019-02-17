@@ -40,6 +40,14 @@ $(document).ready(function() {
 		$('.navbar-collapse').collapse('hide');
 	})
 
+
+	//Ativando scrollspy para adicionar uma classe active nos itens da barra de navegação ao rolar.
+	$('body').scrollspy({
+
+		target: '#navPrincipal',
+		offset: 80
+	});
+
 	//Modal popup$ (function() {
 	$('.portfolio-item').magnificPopup({
 
