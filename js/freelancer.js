@@ -48,6 +48,26 @@ $(document).ready(function() {
 		offset: 80
 	});
 
+	//Recolimento da barra de navegação ao rolar.
+
+	var navbarCollapse = function(){
+
+		if($('#navPrincipal').offset().top > 100){
+
+			$('#navPrincipal').addClass("navbar-shrink");
+
+		} else { 
+
+			$('#navPrincipal').removeClass("navbar-shrink");
+		}
+	}
+
+	//Recolhe o navbar se não estiver no topo.
+	navbarCollapse();
+
+	//Recolhe o navbar se a página é rolada.
+	$(window).scroll(navbarCollapse);
+
 	//Modal popup$ (function() {
 	$('.portfolio-item').magnificPopup({
 

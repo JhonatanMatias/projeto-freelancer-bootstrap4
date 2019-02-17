@@ -193,11 +193,11 @@ a:focus, a:hover, a:active {
     color: #fff;
     background-color: #18BC9C;
   }
-  #navPrincipal.nav-shrink {
+  #navPrincipal.navbar-shrink {
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
   }
-  #navPrincipal.nav-shrink .navbar-brand {
+  #navPrincipal.navbar-shrink .navbar-brand {
     font-size: 1.5em;
   }
 }
