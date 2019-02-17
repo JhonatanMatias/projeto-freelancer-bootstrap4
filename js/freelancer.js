@@ -98,7 +98,7 @@ $(document).ready(function() {
 	 });
 
 	 //Aplicando o jqBootstrapValidation
-	 if($('#formContato input,#formContato textarea').jqBootstrapValidation()); 
+	 $('#formContato input,#formContato textarea').jqBootstrapValidation(); 
 
 });
 
